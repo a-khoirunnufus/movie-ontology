@@ -43,6 +43,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountryOfBorn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountryOfBorn"/>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasDirector -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasDirector">
@@ -63,22 +69,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasLanguage">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieAward -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieAward">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonAward -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonAward">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward"/>
     </owl:ObjectProperty>
     
 
