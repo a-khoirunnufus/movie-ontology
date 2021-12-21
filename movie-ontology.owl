@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#"
+     xml:base="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasActor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasDirector">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasGenre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasLanguage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieAward">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonAward">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAward"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasWriter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasWriter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasActorCharacterName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasActorCharacterName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasAwardYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasCountryName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasGenreTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasGenreTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasLanguageName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasLanguageName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieReleaseDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieReleaseDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieRuntime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieRuntime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasMovieTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonBornDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonBornDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#hasPersonName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Person"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
