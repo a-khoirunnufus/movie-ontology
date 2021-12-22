@@ -483,6 +483,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Alvi_Sargent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Alvi_Sargent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Writer"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1927-04-12T00:00:00</hasPersonName>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alvi Sargent</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Andrew_Garfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Andrew_Garfield">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1983-08-20T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrew Garfield</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Annie_Awards_2021_Voice_Acting_Nominee -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Annie_Awards_2021_Voice_Acting_Nominee">
@@ -541,6 +563,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chris_Morgan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chris_Morgan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Writer"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1970-12-05T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Morgan</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime">
@@ -588,6 +621,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#James_Vanderbilt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#James_Vanderbilt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Writer"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1975-01-01T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Vanderbilt</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan">
@@ -621,6 +665,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Justin_Lin">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Director"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Taiwan"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1971-10-11T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Justin Lin</hasPersonName>
     </owl:NamedIndividual>
     
 
@@ -629,6 +676,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Lucas_Black">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chlotrudis_Award_1997_Support_Actor_Nominee"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Saturn_Award_1997_Young_Actor_Winner"/>
         <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
         <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-11-29T00:00:00</hasPersonBornDate>
         <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas Black</hasPersonName>
@@ -644,6 +693,16 @@
         <hasAwardTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTV Generation Award</hasAwardTitle>
         <hasAwardType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winner</hasAwardType>
         <hasAwardYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</hasAwardYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Marc_Webb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Marc_Webb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Director"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1974-08-31T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marc Webb</hasPersonName>
     </owl:NamedIndividual>
     
 
@@ -710,6 +769,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Taiwan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Taiwan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Country"/>
+        <hasCountryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwan</hasCountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Amazing_Spider-Man -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Amazing_Spider-Man">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#IGN_People’s_Choice_Award_2012_3D_Movie_Winner"/>
+        <hasMovieActor rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Andrew_Garfield"/>
+        <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasMovieDirector rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Marc_Webb"/>
+        <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Action"/>
+        <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller"/>
+        <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#English"/>
+        <hasMovieWriter rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Alvi_Sargent"/>
+        <hasMovieWriter rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#James_Vanderbilt"/>
+        <hasMovieRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</hasMovieRating>
+        <hasMovieReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-03T00:00:00</hasMovieReleaseDate>
+        <hasMovieRuntime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</hasMovieRuntime>
+        <hasMovieTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Amazing Spider-Man</hasMovieTitle>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller">
@@ -761,6 +850,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#IGN_People’s_Choice_Award_2012_3D_Movie_Winner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#IGN_People’s_Choice_Award_2012_3D_Movie_Winner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award"/>
+        <hasAwardCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best 3D Movie</hasAwardCategory>
+        <hasAwardTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGN People’s Choice Award</hasAwardTitle>
+        <hasAwardType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winner</hasAwardType>
+        <hasAwardYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</hasAwardYear>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Spider-Man:_No_Way_Home -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Spider-Man:_No_Way_Home">
@@ -789,18 +890,22 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Fast_and_the_Furious:_Tokyo_Drift">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
         <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#MTV_Generation_Award_2017_The_Fast_and_the_Furious_franchise_Winner"/>
+        <hasMovieActor rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Lucas_Black"/>
         <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Germany"/>
         <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan"/>
         <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasMovieDirector rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Justin_Lin"/>
         <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Action"/>
         <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime"/>
         <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller"/>
         <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#English"/>
         <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japanese"/>
         <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Portuguese"/>
+        <hasMovieWriter rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chris_Morgan"/>
         <hasMovieRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</hasMovieRating>
         <hasMovieReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-06-16T00:00:00</hasMovieReleaseDate>
         <hasMovieRuntime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</hasMovieRuntime>
+        <hasMovieTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fast and the Furious: Tokyo Drift</hasMovieTitle>
     </owl:NamedIndividual>
     
 
