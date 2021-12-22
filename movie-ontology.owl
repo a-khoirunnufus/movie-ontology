@@ -518,6 +518,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chlotrudis_Award_1997_Support_Actor_Nominee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chlotrudis_Award_1997_Support_Actor_Nominee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award"/>
+        <hasAwardCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best Supporting Actor</hasAwardCategory>
+        <hasAwardTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlotrudis Award</hasAwardTitle>
+        <hasAwardType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nominee</hasAwardType>
+        <hasAwardYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</hasAwardYear>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chris_McKenna -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chris_McKenna">
@@ -525,6 +537,15 @@
         <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
         <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1969-12-03T00:00:00</hasPersonBornDate>
         <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris McKenna</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Genre"/>
+        <hasGenreTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crime</hasGenreTitle>
     </owl:NamedIndividual>
     
 
@@ -558,6 +579,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Country"/>
+        <hasCountryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germany</hasCountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Country"/>
+        <hasCountryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</hasCountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Language"/>
+        <hasLanguageName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese</hasLanguageName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Jon_Watts -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Jon_Watts">
@@ -565,6 +613,58 @@
         <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
         <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1981-06-28T00:00:00</hasPersonBornDate>
         <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jon Watts</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Justin_Lin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Justin_Lin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Lucas_Black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Lucas_Black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor"/>
+        <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasPersonBornDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-11-29T00:00:00</hasPersonBornDate>
+        <hasPersonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas Black</hasPersonName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#MTV_Generation_Award_2017_The_Fast_and_the_Furious_franchise_Winner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#MTV_Generation_Award_2017_The_Fast_and_the_Furious_franchise_Winner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award"/>
+        <hasAwardCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fast and the Furious franchise</hasAwardCategory>
+        <hasAwardTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTV Generation Award</hasAwardTitle>
+        <hasAwardType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winner</hasAwardType>
+        <hasAwardYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</hasAwardYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Portuguese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Portuguese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Language"/>
+        <hasLanguageName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protuguese</hasLanguageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Saturn_Award_1997_Young_Actor_Winner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Saturn_Award_1997_Young_Actor_Winner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Award"/>
+        <hasAwardCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best Performance by a Younger Actor</hasAwardCategory>
+        <hasAwardTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturn Award</hasAwardTitle>
+        <hasAwardType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winner</hasAwardType>
+        <hasAwardYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</hasAwardYear>
     </owl:NamedIndividual>
     
 
@@ -610,11 +710,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Genre"/>
+        <hasGenreTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thriller</hasGenreTitle>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Tom_Holland -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Tom_Holland">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Actor"/>
-        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Annie_Awards_2021_Voice_Acting_Nominee"/>
         <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#BAFTA_Awards_2017_Rising_Star_Winner"/>
         <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Saturn_Award_2019_Best_Performance_Young_Winner"/>
         <hasCountryOfBorn rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_Kingdom"/>
@@ -657,7 +765,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Spider-Man:_No_Way_Home">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
-        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#BAFTA_Awards_2017_Rising_Star_Winner"/>
         <hasMovieActor rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Tom_Holland"/>
         <hasMovieDirector rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Jon_Watts"/>
         <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Action"/>
@@ -673,6 +780,27 @@
         <hasMovieReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-17T00:00:00</hasMovieReleaseDate>
         <hasMovieRuntime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148</hasMovieRuntime>
         <hasMovieTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spider-Man: No Way Home</hasMovieTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Fast_and_the_Furious:_Tokyo_Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Fast_and_the_Furious:_Tokyo_Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#MTV_Generation_Award_2017_The_Fast_and_the_Furious_franchise_Winner"/>
+        <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Germany"/>
+        <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan"/>
+        <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#United_States"/>
+        <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Action"/>
+        <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Crime"/>
+        <hasMovieGenre rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Thriller"/>
+        <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#English"/>
+        <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japanese"/>
+        <hasMovieLanguage rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Portuguese"/>
+        <hasMovieRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</hasMovieRating>
+        <hasMovieReleaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-06-16T00:00:00</hasMovieReleaseDate>
+        <hasMovieRuntime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</hasMovieRuntime>
     </owl:NamedIndividual>
     
 
