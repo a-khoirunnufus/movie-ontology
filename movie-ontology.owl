@@ -889,7 +889,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#The_Fast_and_the_Furious:_Tokyo_Drift">
         <rdf:type rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Movie"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Chlotrudis_Award_1997_Support_Actor_Nominee"/>
         <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#MTV_Generation_Award_2017_The_Fast_and_the_Furious_franchise_Winner"/>
+        <hasAward rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Saturn_Award_1997_Young_Actor_Winner"/>
         <hasMovieActor rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Lucas_Black"/>
         <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Germany"/>
         <hasMovieCountry rdf:resource="http://www.semanticweb.org/recsys_group3/ontologies/2021/11/movie-ontology#Japan"/>
